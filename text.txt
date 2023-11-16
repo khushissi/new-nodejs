@@ -1,0 +1,57 @@
+// console.log("welcome to ssi")
+// console.log("hello everyone")
+
+// //fileSystem(MODULE)(write operation)
+//  const v=require('fs')
+//  v.writeFileSync('demo.txt'," hello ssi  \n digital \n");
+//  v.appendFileSync("demo.txt", " how is ur institude");
+
+// //(readfile)
+//  const a=require("fs")
+//  const b= a.readFileSync("demo.txt");
+//  const final = b.toString();
+//  console.log(final);
+
+ // //(readfile without converting into string )(utf-8)
+//  const a=require("fs")
+//  const b= a.readFileSync("demo.txt","Utf-8");
+//  console.log(b);
+
+
+// // //renamefile
+// const e = require("fs");
+// const f = e.renameSync("demo.txt", "text.txt");
+
+// //delete file 
+// const c = require("fs");
+// const d=c.unlinkSync("text.txt");
+
+//// windows version
+// const a = require("os");
+// const b = a.arch();
+// console.log(b);
+
+
+// const a = require("os");
+// const b = a.freemem();
+// console.log(b);
+
+// //operating system
+// const os = require("os");
+// const total= os.totalmem();
+// console.log(`${total/1024/1024/1024}`);
+// const free=s.freemem();
+// console.log(`${free/1024/1024/1024}`);
+// console.log(`${total/1024/1024/1024-free/1024/1024/1024}`);
+
+////dir
+// const s=require("os")
+// console.log(s.tmpdir())
+
+
+//asystronice version
+const fs=require('fs');
+fs.writeFile("hello.txt",(err)=>{
+console.log(err);
+
+});
